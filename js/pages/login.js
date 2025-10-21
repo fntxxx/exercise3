@@ -17,7 +17,6 @@ export default function login() {
 
         // 可在這裡加上驗證或登入邏輯（例如檢查帳密）
         // 假設登入成功後導回首頁
-        alert("登入成功！");
         location.hash = "home"; // 導回首頁
     });
 
