@@ -4,8 +4,8 @@ export default function login() {
     el.innerHTML = `
     <h2>🔑 登入</h2>
     <form id="login-form">
-      <label>Email：<input type="email" required></label><br>
-      <label>密碼：<input type="password" required></label><br>
+      <label>Email：<input type="email"></label><br>
+      <label>密碼：<input type="password"></label><br>
       <button type="submit">登入</button>
     </form>
   `;
